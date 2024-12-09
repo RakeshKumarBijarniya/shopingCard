@@ -1,0 +1,52 @@
+##
+post http://localhost:5000/api/createAccount
+Content-Type: application/json
+
+{
+    "fname":"Rakesh",
+     "lname":"Kumar",
+     "email":"rakeshKumarbijarniya@gmail.com",
+     "password":"aa11",
+     "cPassword":"aa11"
+}
+
+###
+post http://localhost:5000/api/login
+Content-Type: application/json
+
+{
+    "username":"rakesh1@gmail.com",
+    "password":"aa11"
+}
+
+### 
+post http://localhost:5000/api/addProduct
+Content-Type: application/json
+
+{
+    "name":"Oppo Mobile",
+    "desc":"New Oppo Phone Lounched",
+    "price":"17999",
+    "qty":"20"
+}
+
+### 
+get http://localhost:5000/api/allProduct
+
+###
+post http://localhost:5000/api/addCatProduct
+Content-Type: application/json
+
+{
+    "name":"oppo",
+    "desc":"128gb",
+    "price":34000,
+    "qty":15,
+    "categoryVal":"mobile"
+}
+
+### 
+get http://localhost:5000/api/allCatProduct
+
+###
+get http://localhost:5000/api/getUpdateProData/66ea3b7af4a657742d78fb53

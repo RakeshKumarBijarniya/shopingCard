@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.create-account-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+#loginContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+#header {
+  background-color: gray;
+  padding: 15px 0px;
+}
+
+#adminHeader {
+  background-color: rgb(56, 50, 50);
+  padding: 15px 0px;
+}
+
+#adminHeader h4 {
+  color: whitesmoke;
+}
+#adminHeader button {
+  float: right;
+}
+
+#header h4 {
+  color: whitesmoke;
+}
+#header button {
+  float: right;
+}
+
+.cart-emt-txt {
+  font-size: 40px;
+  margin-top: 200px;
+}
+.cart-button {
+  font-size: 25px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: rgb(75, 129, 13);
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgb(119, 113, 113);
+  color: #fff;
+  padding: 0px;
+  text-align: center;
+}
